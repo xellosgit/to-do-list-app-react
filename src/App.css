@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea; /* Softer light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #444; /* Slightly lighter gray for the header */
+  margin-bottom: 1rem;
+  font-size: 2.5rem; /* Increased size for better prominence */
+}
+
+.TodoWrapper {
+  background: #ffffff; /* Clean white background */
+  margin-top: 2rem; /* Reduced top margin */
+  padding: 2.5rem; /* Increased padding for spaciousness */
+  border-radius: 15px; /* More rounded corners for modern appeal */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 2rem; /* Increased margin for clarity */
+}
+
+.todo-input {
+  outline: none;
+  background: #f7f7f7; /* Light gray input background */
+  border: 2px solid #cccccc; /* Thicker border for visibility */
+  padding: 0.75rem 1rem; /* More padding for comfort */
+  margin-top: 0.5rem; /* Slightly reduced top margin */
+  width: 100%; /* Full width of the container */
+  max-width: 400px; /* Maximum width for larger screens */
+  color: #333; /* Dark text for contrast */
+  border-radius: 8px; /* Rounded corners */
+  transition: border 0.3s; /* Smooth transition for border color */
+}
+
+.todo-input::placeholder {
+  color: #aaaaaa; /* Placeholder color */
+}
+
+.todo-input:focus {
+  border-color: #000000; /* Change border color on focus */
+}
+
+.todo-btn {
+  background: #000000; /* Button color */
+  margin-top: 0.5rem;
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  padding: 0.65rem 1rem; /* More padding for a bigger button */
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners for the button */
+  transition: background 0.3s, transform 0.2s; /* Transitions for hover and press effects */
+}
+
+.todo-btn:hover {
+  background: #000000; /* Darker shade on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9; /* Very light gray for todo items */
+  color: #333; /* Dark text */
+  padding: 1rem 1.5rem; /* Increased padding for todo items */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 1rem; /* Space between todos */
+  border: 1px solid #e0e0e0; /* Subtle border for separation */
+  transition: background 0.3s; /* Transition for hover effect */
+}
+
+.Todo:hover {
+  background: #f1f1f1; /* Slightly darker gray on hover */
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #333; /* Dark gray for incompleted tasks */
+  cursor: pointer;
+}
+
+.completed {
+  color: #aaa; /* Light gray for completed tasks */
+  text-decoration: line-through; /* Strike-through for completed tasks */
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  color: #000000; /* Icon color */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: #000000; /* Darker shade on hover */
+}
