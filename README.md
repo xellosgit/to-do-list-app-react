@@ -18,12 +18,3 @@ The Todo Application is a simple yet effective task management tool designed to 
 - **UUID**: The UUID library is employed to generate unique identifiers for each task, ensuring no conflicts arise when managing tasks.
 ![Screenshot 2024-10-14 201330](https://github.com/user-attachments/assets/a1411a4a-7123-41f5-86e8-d4e6bfae0a0e)
 
-## Getting Started
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd todo-application`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
