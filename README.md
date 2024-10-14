@@ -16,6 +16,7 @@ The Todo Application is a simple yet effective task management tool designed to 
 - **CSS**: Custom styles are applied using CSS for a visually appealing and responsive design.
 - **FontAwesome**: Icons from FontAwesome are used to enhance the user interface, providing intuitive visual cues for editing and deleting tasks.
 - **UUID**: The UUID library is employed to generate unique identifiers for each task, ensuring no conflicts arise when managing tasks.
+![Screenshot 2024-10-14 201330](https://github.com/user-attachments/assets/a1411a4a-7123-41f5-86e8-d4e6bfae0a0e)
 
 ## Getting Started
 1. Clone the repository: `git clone <repository-url>`
